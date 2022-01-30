@@ -27,6 +27,7 @@ int main()
           }
         else if(s[j]=='a')
             {
+                flag=false;
                 st+='a';j--;
             }
         else

@@ -15,8 +15,7 @@ int main()
     cout.tie();
 
     ll n;cin>>n;
-    ll k=pow(2,30);
-    cout<<k<<endl;
+    ll k=pow(2,31);
     ll m=-k;
     k--;
     if(m<=n && k>=n)
